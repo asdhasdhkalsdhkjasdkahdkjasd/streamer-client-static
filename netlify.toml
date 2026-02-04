@@ -1,0 +1,3 @@
+[build]
+command = "unzip -o client_folder.zip && unzip -o script.zip && unzip -o server.zip && unzip -o shared.zip && npm install && npm run build"
+publish = "dist/public"
