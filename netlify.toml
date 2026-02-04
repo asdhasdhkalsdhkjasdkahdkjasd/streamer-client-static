@@ -1,3 +1,9 @@
 [build]
 command = "unzip -o client_folder.zip && unzip -o server.zip && unzip -o shared.zip && npm install && npx vite build"
 publish = "dist/public"
+
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
